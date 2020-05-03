@@ -3,7 +3,7 @@
 using namespace std;
 
 // prototyping
-vector<int> twoNumberSum(vector<int>, int);
+vector<int> twoNumberSum(vector<int> array, int);
 
 int main(){
 
@@ -12,7 +12,8 @@ int main(){
 
 vector<int> twoNumberSum(vector<int> array, int targetSum){
     for(int  i = 0; i < array.size(); i++){
-        for(int j = 0; i < array.size(); j++){
+        for(int j = i; j < array.size(); j++){
+            cout << "j: " << j << "i: " << i << "\n";
             
         }
     }
