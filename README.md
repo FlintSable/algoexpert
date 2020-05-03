@@ -1,2 +1,2 @@
-# codewars
+# algoexpert
 Repo for my solved challenges 
