@@ -1,7 +1,7 @@
 def add_prices(basket):
     total = round(0,2)
     for key in basket:
-        total = round(total, 2) + round(basket[key], 2)
+        total += round(basket[key], 2)
     return(round(total, 2))
 
 
